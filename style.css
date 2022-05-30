@@ -1,0 +1,31 @@
+.pagrindinis{
+    background-color: yellow;
+    display: flex;
+    align-content: center;
+    height: 50px;
+}
+.flexPirmas{
+    display: flex;
+    height: 50px;
+    background-color:antiquewhite;
+    flex-wrap: nowrap;
+}
+.flexAntras{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    flex-wrap: nowrap;
+}
+.meniu{
+    height: 30px;
+    width: 10%;
+}
+.paveikslas{
+    height: 200px;
+    height: 200px;
+}
+.mygtukas{
+    height: 20px;
+    background-color: aquamarine;
+    flex-grow: 1;
+}
