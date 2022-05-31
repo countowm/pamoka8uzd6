@@ -2,30 +2,36 @@
     background-color: yellow;
     display: flex;
     align-content: center;
-    height: 50px;
+    width: 100%;
 }
 .flexPirmas{
     display: flex;
     height: 50px;
     background-color:antiquewhite;
     flex-wrap: nowrap;
+    align-items:center;
+    align-content: space-around;
 }
 .flexAntras{
+    display: block;
     display: flex;
     height: 200px;
     width: 200px;
     flex-wrap: nowrap;
+    align-content: space-around;
+    width: 100%;
+    flex-grow: 1;
 }
 .meniu{
     height: 30px;
-    width: 10%;
+    width: 20%;
 }
-.paveikslas{
-    height: 200px;
-    height: 200px;
-}
-.mygtukas{
+.mygtukasPirmas{
     height: 20px;
     background-color: aquamarine;
     flex-grow: 1;
+}
+.mygtukasAntras{
+    background-color: antiquewhite;
+    height: 20px;
 }
